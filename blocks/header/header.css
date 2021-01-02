@@ -1,3 +1,12 @@
 .header {
   box-sizing: border-box;
+  /* margin: auto; */
+  /* max-width: 1280px; */
+  min-height: 52px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0 48px 56px;
+
+  /* outline: 1px solid rgb(212, 14, 14); */
 }
