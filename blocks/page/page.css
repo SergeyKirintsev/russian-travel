@@ -17,10 +17,6 @@
   /* padding-bottom: 24px; */
 }
 
-body {
-  background-color: rgb(8, 207, 233);
-}
-
 @media screen and (max-width: 320px) {
   .page {
     padding-top: 16px;
