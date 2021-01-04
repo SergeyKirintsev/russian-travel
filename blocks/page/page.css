@@ -4,7 +4,7 @@
   margin: 0 auto;
   background-color: #2A2C2F;
   color: #fff;
-
+/* color: rgb(65, 231, 15); */
   font-family: 'Inter', Arial, sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -21,4 +21,8 @@ body {
   background-color: rgb(8, 207, 233);
 }
 
-  
+@media screen and (max-width: 320px) {
+  .page {
+    padding-top: 16px;
+  }
+} 

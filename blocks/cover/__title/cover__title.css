@@ -12,3 +12,24 @@
   position: absolute;
   top: 245px;
 }
+
+@media screen and (max-width: 1024px) {
+  .cover__title {
+    top: 195px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__title {
+    top: 115px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__title {
+    top: 33px;
+    font-size: 32px;
+    line-height: 1.09;
+    max-width: 250px;
+  }
+}

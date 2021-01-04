@@ -1,6 +1,21 @@
 .cover {
   padding: 0 48px 92px;
+}
 
-  /* outline: 3px solid white; */
-  /* box-sizing: border-box; */
+@media screen and (max-width: 1024px) {
+  .cover {
+    padding: 0 0 92px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    padding: 0 0 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    padding: 0 0 64px;
+  }
 }

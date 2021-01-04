@@ -1,12 +1,30 @@
 .header {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   /* margin: auto; */
   /* max-width: 1280px; */
-  min-height: 52px;
+  /* max-height: 52px; */
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   padding: 0 48px 56px;
 
   /* outline: 1px solid rgb(212, 14, 14); */
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    padding: 0 48px 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 0 24px 48px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    padding: 0 16px 48px;
+  }
 }

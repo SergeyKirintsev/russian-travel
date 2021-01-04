@@ -3,3 +3,14 @@
   padding: 0 148px;
 }
 
+@media screen and (max-width: 1024px) {
+  .lead {
+    padding: 0 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    padding: 0;
+  }
+}

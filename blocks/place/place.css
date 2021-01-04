@@ -1,10 +1,31 @@
 .place {
   display: grid;
   grid-template-columns: 47% 49%;
-  grid-gap: 48px 40px;
+  gap: 48px 40px;
   margin-bottom: 80px;
 }
 
 .place:last-of-type {
   margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    gap: 48px 28px;
+    margin-bottom: 72px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    margin-bottom: 50px;
+  }
 }
