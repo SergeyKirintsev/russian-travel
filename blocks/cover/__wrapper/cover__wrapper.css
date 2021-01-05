@@ -6,6 +6,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 
   background-image: url(../../../images/cover-trains.jpg);
   background-size: cover;
@@ -13,6 +14,26 @@
 
   max-width: 1184px;
   min-height: 740px;
+  text-decoration: none;
+}
+
+.cover__wrapper::before {
+  content: '';
+  background: #2A2C2F;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.2;
+  transition: opacity .5s;
+  /* z-index: 1; */
+}
+
+.cover__wrapper:hover::before {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 1024px) {

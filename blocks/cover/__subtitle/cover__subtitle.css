@@ -9,25 +9,25 @@
   max-width: 360px;
 
   z-index: 2;
-  position: absolute;
-  top: 429px;
+  /* position: absolute; */
+  /* top: 429px; */
 }
 
 @media screen and (max-width: 1024px) {
   .cover__subtitle {
-    top: 379px;
+    /* top: 379px; */
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover__subtitle {
-    top: 299px;
+    /* top: 299px; */
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 650px) {
   .cover__subtitle {
-    top: 119px;
+    /* top: 119px; */
     font-size: 14px;
     line-height: 1.14;
     max-width: 260px;
